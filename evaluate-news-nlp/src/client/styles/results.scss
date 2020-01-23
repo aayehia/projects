@@ -1,0 +1,39 @@
+$text-size: 18px;
+
+$border-section: 1px solid #009494;
+$border-form: 1px solid #009494;
+
+$background-footer: black;
+$background-header: black;
+
+$background-btn: #c7f7f7;
+$border-input: 0.5px solid black;
+
+section {
+
+    h2 {
+        padding-left: 20px;
+        margin-bottom: 0;
+    }
+
+    #results {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .mini-card {
+        border: $border-section;
+        margin: 0;
+        padding: 40px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    p {
+        padding-left: 30px;
+    }
+}
