@@ -1,0 +1,16 @@
+#navbar {
+    text-align: center;
+}
+
+#home {
+    float: right;
+}
+
+#icon {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images/voda-icon.png");
+}

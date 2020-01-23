@@ -1,0 +1,33 @@
+@import "container.css";
+@import "post.css";
+@import "id.css";
+
+header {
+    height: auto;
+    width: auto;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 25px;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-size: contain;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-family: Georgia, serif;
+    text-decoration: underline solid rgb(68, 68, 68);
+}
+
+h2 {
+    font-variant: small-caps;
+    font-family: Georgia, serif;
+    text-decoration: italic rgb(68, 68, 68);
+}
+
+button {
+    margin: 5px;
+}
